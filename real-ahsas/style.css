@@ -1,0 +1,61 @@
+body, html {
+	scroll-behavior: smooth;
+}
+#heade {
+	background: white;
+}
+@media (min-width: 992px) {
+	.hide-lg {
+		display: none !important;
+	}
+	.h-lg-400 {
+		height: 450px !important;
+	}
+}
+@media (min-width: 768px) {
+	.h-md-400 {
+		height: 400px!important;
+	}
+}
+@media (min-width: 576px) {
+	.h-sm-400 {
+		height: 400px;
+	}
+}
+@media (min-width: 450px) {
+	.h-400 {
+		height: 200px;
+	}
+	.mt-6 {
+		margin-top: 6rem !important;
+	}
+}
+
+
+.box-shadow {
+	box-shadow: -2px 0 9px -6px black;
+}
+.box-shadow-white {
+	box-shadow: -2px 0 9px -6px white;
+}
+#Program {
+	/*background: url(../image/softblue.jpg);
+	background-size: 100% 100%;*/
+	background: linear-gradient(45deg, #da251d, #a82740)
+}
+.btn-outline-white {
+  color: #007bff;
+  background-color: white;
+  background-image: none;
+  border-color: #007bff;
+}
+
+.btn-outline-white:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-white:focus, .btn-outline-white.focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
